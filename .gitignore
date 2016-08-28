@@ -1,0 +1,9 @@
+# system files
+.DS_Store
+Thumbs.db
+
+# npm stuff
+node_modules
+
+# public dir
+public

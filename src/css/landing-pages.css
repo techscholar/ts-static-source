@@ -1,0 +1,368 @@
+html {
+  font-size: 10px;
+}
+
+body {
+  background: #fff;
+  font-family: "Roboto", Helvetica, sans-serif;
+  font-weight: 300;
+}
+
+h1, h2, h3 {
+  font-weight: 300;
+}
+
+h4, h5, h6 {
+  font-weight: 300;
+}
+
+h2 {
+  font-size: 3.2rem;
+  text-align: center;
+}
+
+h4 {
+  padding: 0 20px;
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+  text-align: center;
+}
+
+button {
+  cursor: pointer;
+}
+
+.wrapper {
+  max-width: 768px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.wrapper-960 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.wrapper.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.wrapper.space-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar {
+  background: #fff;
+  padding: 20px 0;
+}
+
+.navbar a {
+  color: rgb(91, 91, 91);
+  font-size: 1.6rem;
+  text-decoration: none;
+  transition: color .3s;
+}
+
+.navbar a:hover {
+  color: rgb(80, 153, 222);
+}
+
+.logo {
+  width: 200px;
+  height: auto;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  min-height: 420px;
+  background-image: url("../static/hero-working-laptop.jpg");
+  background-size: cover;
+  padding: 40px;
+  color: #fff;
+}
+
+.hero-double {
+  min-height: 420px;
+  background-image: url("../static/hero-working-laptop.jpg");
+  background-size: cover;
+  padding: 40px;
+  color: #fff;
+}
+
+.hero-copy-left {
+  max-width: 620px;
+  margin-rigth: 40px;
+}
+
+.hero-copy-left.two-col {
+  max-width: 480px;
+  text-shadow: 0px 2px 4px rgba(0,0,0,0.35);
+}
+
+.hero-copy-left h1 {
+  max-width: 420px;
+  font-size: 4.8rem;
+  font-weight: 900;
+}
+
+.hero-copy-left.two-col h1 {
+  margin-bottom: 0;
+}
+
+.hero-copy-left.two-col li {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.bullet-wrapper {
+  display: flex;
+  justify-content: flex-start;
+  padding-bottom: 15px;
+}
+
+.hero-subhead, .bullet-text {
+  font-size: 1.8rem;
+  line-height: 2.6rem;
+}
+
+.hero-copy-left.two-col .icon-ts-checkmark {
+  margin-right: 10px;
+  margin-top: 10px;
+  padding-right: 10px;
+}
+
+.form-overlay {
+  padding: 40px;
+  background-color: rgba(0, 0, 0, 0.6);;
+  border-radius: 4px;
+  width: 60%;
+  max-width: 400px;
+}
+
+.form-overlay.one-col {
+  max-width: 320px;
+}
+
+.form-overlay input {
+  display: block;
+  width: calc(100% - 30px);
+  height: 40px;
+  margin: 20px 0;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 4px;
+  border: none;
+  font-size: 1.6rem;
+}
+
+.form-overlay button {
+  width: 100%;
+  padding: 15px;
+  border-radius: 4px;
+  border: none;
+  background-image: linear-gradient(to bottom, #ffa13f, #f98a17);
+  color: #fff;
+  font-weight: 300;
+  font-size: 1.8rem;
+}
+
+.form-overlay .micetype {
+  margin: 0 auto;
+  padding-top: 15px;
+  color: #fff;
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+.form-overlay h2 {
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.form-overlay h4 {
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+.client-logos {
+  display: flex;
+  justify-content: center;
+  padding: 30px 0 10px;
+}
+
+.heading h3 {
+  margin-top: 0;
+  text-align: center;
+  color: rgb(91, 91, 91);
+  font-size: 3.2rem;
+  font-weight: 500;
+}
+
+.heading h4 {
+  margin-bottom: 10px;
+  text-align: center;
+  color: rgb(80, 153, 222);
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.columns-3 {
+  display: flex;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 960px;
+  color: rgb(91, 91, 91);
+}
+
+.col-3 {
+  width: 33%;
+  min-width: 320px;
+  padding-right: 20px;
+}
+
+.col-3:last-child {
+  padding-right: 0;
+}
+
+.col-3 h1 {
+  font-weight: 500;
+}
+
+.col-3 ul, .col-3 li {
+  padding-left: 0;
+  margin-left: 0;
+  font-size: 1.5rem;
+  line-height: 2.1rem;
+  color: #ff775c;
+}
+
+.col-3 li {
+  padding-bottom: 10px;
+}
+
+.col-3 span {
+  color: rgb(91, 91, 91);
+}
+
+.testimonials {
+  background: rgb(80, 153, 222);
+  padding: 50px 40px;
+}
+
+.testimonials h3 {
+  margin-top: 0;
+  text-align: center;
+  color: #fff;
+  font-size: 3.2rem;
+  font-weight: 500;
+}
+
+.testimonials h4 {
+  margin-bottom: 10px;
+  margin-top: 0;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.testimonials > .wrapper {
+  display: flex;
+  justify-content: space-between;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.testimonials .testimonial-card {
+  padding: 20px 20px 20px 30px;
+  width: 42%;
+  background: #fff;
+  border-radius: 4px;
+  color: rgb(91, 91, 91);
+}
+
+.testimonial-card p {
+  font-size: 1.8rem;
+  line-height: 2.4rem;
+}
+
+.testimonial-card h5 {
+  text-align: right;
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  text-transform: uppercase;
+  color: rgb(130, 130, 130);
+}
+
+.bottom-cta {
+  display: flex;
+  justify-content: center;
+  padding: 60px 40px;
+}
+
+.bottom-cta .form-overlay {
+  background: none;
+}
+
+.bottom-cta input {
+  border: 1px solid rgb(130, 130, 130);
+  border-radius: 4px;
+}
+
+.bottom-cta h2 {
+  font-weight: 500;
+}
+
+.bottom-cta img {
+  max-height: 300px;
+  width: auto;
+  vertical-align: bottom;
+}
+
+footer {
+  padding: 20px;
+  background-color: rgb(48, 48, 48);
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+footer a {
+  color: #fff;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+.footer-logo {
+  width: 200px;
+}
+
+/* HOVER EFFECTS */
+
+.form-overlay button.cta-button {
+  transition: box-shadow, background;
+  transition-duration: .3s;
+}
+
+.form-overlay button.cta-button:hover {
+  box-shadow: 0 0 0 3px rgba(255, 155, 2, 0.7);
+}

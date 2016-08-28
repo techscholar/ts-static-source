@@ -1,0 +1,38 @@
+{
+  "name": "ts-landing-pages",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "del": "^2.2.0",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-csso": "^2.0.0",
+    "gulp-imagemin": "^3.0.1",
+    "gulp-less": "^3.1.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-replace": "^0.5.4",
+    "gulp-sass": "^2.3.2",
+    "gulp-template-html": "^0.2.0",
+    "gulp-uglify": "^1.5.3",
+    "gulp-watch": "^4.3.5",
+    "gulp.spritesmith": "^6.2.1",
+    "merge-stream": "^1.0.0",
+    "node-gyp": "^3.4.0",
+    "run-sequence": "^1.2.1",
+    "vinyl-buffer": "^1.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "http://techscholar.com"
+  },
+  "homepage": "http://techscholar.com",
+  "devDependencies": {
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-real-favicon": "^0.2.1"
+  }
+}
