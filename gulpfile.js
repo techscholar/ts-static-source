@@ -220,8 +220,15 @@ gulp.task("copy:assets", function () {
 // 	});
 // });
 
-gulp.task("watch", ["dev"], function () {
-	gulp.watch("./src/js/*.js", ["js"]);
+gulp.task("watch", ["production"], function () {
+	gulp.watch("./src/css/*.css", ["production"]);
+});
+
+gulp.task("watcher", ["production"], function () {
+	return watch('./src/css/**/*.css', function () {
+			 gulp.src('./src/css/**/*.css')
+					 .pipe(gulp.dest('production'));
+	 });
 });
 
 gulp.task("production", function (callback) {
