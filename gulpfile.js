@@ -72,15 +72,15 @@ gulp.task("srcCss", function() {
 });
 
 gulp.task('templateHtml', function () {
-    return gulp.src('./src/content/template-01/*.html')
+    return gulp.src('./src/content/template-01/**/*.html')
       .pipe(templateHtml('./src/templates/template-01/index.html'))
-      .pipe(gulp.dest('./public/pages/p01'));
+      .pipe(gulp.dest('./public/landing-pages/p01'));
 });
 
 gulp.task('templateHtml2', function () {
-    return gulp.src('./src/content/template-02/*.html')
+    return gulp.src('./src/content/template-02/**/*.html')
       .pipe(templateHtml('./src/templates/template-02/index.html'))
-      .pipe(gulp.dest('./public/pages/p02'));
+      .pipe(gulp.dest('./public/landing-pages/p02'));
 });
 
 gulp.task("js", function () {
